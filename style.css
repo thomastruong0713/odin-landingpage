@@ -169,6 +169,7 @@ a {
     margin-bottom: 125px;
     height: 200px;
     gap: 200px;
+    flex:0 0 auto;
 }
 
 .ctahead {
@@ -195,6 +196,7 @@ a {
     border: 1px solid white;
     text-align: center;
     font-size: 18px;
+    flex:0 0 auto;
 }
 
 .footer {
@@ -205,4 +207,5 @@ a {
     align-items: center;
     color: #F9FAF8;
     padding: 36px;
+    flex:0 0 auto;
 }
