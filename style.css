@@ -1,11 +1,17 @@
-.body {
-    margin: 0px;
+body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
 }
 
 .hero {
     background-color: #1F2937;
     height: 500px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -130,6 +136,7 @@ a {
     background-color: #E5E7EB;
     align-items: center;
     padding: 128px;
+    margin: 0px;
 }
 
 .quote {
@@ -144,4 +151,58 @@ a {
     font-size: 18px;
     align-self: flex-end;
     margin-right: 475px;
+}
+
+.ctatext{
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    height: 200px;
+    gap: 200px;
+}
+
+.ctahead {
+    font-weight: bold;
+    color:white;
+    font-size: 26px;
+}
+
+.ctasub {
+    color:#E5E7EB;
+    font-size: 20px;
+}
+
+.ctabutton {
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 150px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 36px;
 }
